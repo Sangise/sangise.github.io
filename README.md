@@ -1,2 +1,2 @@
 # sangise.github.io
-[こちら]()
+[こちら](https://github.com/Sangise/sangise.github.io/blob/main/test.html)
