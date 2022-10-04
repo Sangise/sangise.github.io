@@ -2,10 +2,10 @@
 <html>
 <head>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- <title>Hand Signaling</title>
+ <title>webRTC Test</title>
 </head>
 <body>
-  Hand Signaling 2016<br />
+  webRTCのテスト用サイト（ITIC　2022.10.04)<br />
   <button type="button" onclick="startVideo();">Start Video</button>
   <button type="button" onclick="stopVideo();">Stop Video</button>
   &nbsp;
@@ -21,6 +21,13 @@
   <p>SDP to receive:&nbsp;
     <button type="button" onclick="onSdpText();">Receive remote SDP</button><br />
     <textarea id="text_for_receive_sdp" rows="5" cols="60"></textarea>
+  </p>
+  <p> 
+      1. 初めに「Start Video」のボタンを押す。<br>
+      2. 次に「Connect」のボタンを押す。<br>
+      3. SDP to sendに文字列が出てくるので、内容をコピーし、相手PC側の「SDP to receive」にコピーする<br>
+      4. 相手PC側が「Receive remote SDP」のボタンを押し、文字列が出てくるので、その内容をこちらの「SDP tp receive」に貼り付ける。<br>
+      5. 最後に「Receive remote SDP」を押して映像を共有することが可能となる。
   </p>
 </body>
 <script type="text/javascript">
